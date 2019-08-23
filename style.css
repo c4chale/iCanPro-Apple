@@ -1,0 +1,438 @@
+html {
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul,li,h1,h2,h3,h4,h5,h6,p,form,input,button {
+    margin: 0;
+    padding: 0;
+}
+
+iframe,img {
+    border: 0;
+} 
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+
+footer,header,nav,main {
+    display: block;
+}
+
+button {
+    background: none;
+    border: 0;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    line-height: inherit;
+    overflow: visible;
+    vertical-align: inherit;
+} 
+
+button:disabled {
+    cursor: default;
+} 
+
+:focus {
+    outline: 3px solid #c1e0fe;
+    outline: 3px solid rgba(131,192,253,0.5);
+    outline-offset: 1px;
+} 
+
+:focus[data-focus-method="mouse"]
+:not(input)
+:not(textarea)
+:not(select),
+:focus[data-focus-method="touch"]
+:not(input)
+:not(textarea)
+:not(select) {
+    outline: none;
+}
+
+a,a:link,a:visited{
+    color: #000;
+    text-decoration: none
+} 
+
+html {    
+    font-size: 106.25%;
+    quotes: "â€œ" "â€";
+}
+
+body {
+    font-size: 17px;
+    line-height: 1.47059;    
+    letter-spacing: -.022em;
+    background-color: #fff;
+    font-family: 'Lato', sans-serif;
+    color: #333;
+    /* font-style: normal; */
+} 
+ 
+h1,h2,h3,h4,h5,h6 {
+    color: #111
+} 
+
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img {
+    display: block;
+    margin: 0
+}
+
+
+li li {
+    font-size: 1em
+} 
+
+/* START NAV */
+
+nav {
+    /* display:block; */
+    height:66px;
+    width: 100%;
+    
+}
+
+.navbar {
+    height: 44px !important;
+    display: flex;    
+    margin: 0 auto !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 12px !important;
+}
+/* 
+nav {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+} */
+
+nav .fa-2x {
+    font-size: 1.5rem !important;
+}
+/* 
+.fix-space {
+    margin-left: -10%;
+} */
+
+.bg-trans-white {
+    background-color: rgba(255, 255, 255, .9);
+}
+
+.localnavbar {
+    height: 52px !important;
+    display: flex;    
+    margin: 0 auto 8px !important;
+    font-size: 12px !important;
+    text-decoration-color: #111 !important;
+    color: #000 !important;
+    font-family: 'Lato', sans-serif !important;
+    align-items: center;
+    white-space: nowrap;
+    max-width: 770px !important;
+}
+
+.title {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+nav.container {
+    max-width: 780px;
+}
+
+nav ul {
+    margin: 0;
+    list-style: none;
+}
+
+.nav-item {
+    padding-left: 3% !important;
+    padding-right: 3% !important;
+}
+
+.nav-link {
+    -webkit-text-fill-color: #fff !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: thin !important;
+    letter-spacing: 0.5px;
+}
+
+.nav-link:hover {
+    color: grey !important;
+    -webkit-text-fill-color: grey !important;
+}
+
+.localnav-link {
+    -webkit-text-fill-color: #111 !important;
+    font-family: 'Lato', sans-serif !important;
+    font-weight: thin !important;
+    letter-spacing: 0.5px;    
+    white-space: nowrap;    
+}
+
+.localnav-link:hover {
+    color: grey !important;
+    -webkit-text-fill-color: grey !important;
+}
+
+.btn-buy {
+    border-radius: 12% !important;
+    font-size: inherit;
+    background-attachment: scroll;
+    background-color: #2186d6;
+    background: linear-gradient(#2186d6, #2186d6);
+    border-width: 1px;
+    border-style: solid;
+    border-color: #07c;
+    color: #fff;    
+    -webkit-text-fill-color: #fff !important;
+    min-width: 20px;
+    padding: 4px 15px;
+}
+
+.btn-buy:hover {
+    /* border-color: #07c !important; */
+    background: #07c !important;    
+    -webkit-text-fill-color: #fff !important;
+}
+
+.bg-dark {
+    background-color:#000!important;
+}
+
+.fa4-sea {
+color: #fff !important;
+/* font-size: 17px !important; */
+}
+
+/* NAV END */
+
+
+/* Body start */
+
+#hero{
+    background: whitesmoke;
+    background-size: 80%;
+    margin: 0 4rem 0 4rem;
+}
+
+.text-title {
+    font-size: 900% !important;
+    font-weight: 900 !important;
+    margin-top: 10% !important;    
+}
+
+.img-title {
+    width: 100%;
+}
+
+.center {
+    text-align: center;    
+}
+
+#manifest {
+    margin: 0rem 4rem 0 4rem;
+    padding-top: 54px;
+}
+
+.text-manifest {        
+    font-size: 32px; 
+    font-weight: 600;
+    color: #888888;
+    /* display: inline; */
+    width: 70%;
+    
+}
+
+.text-header {    
+    font-weight: 700;
+    color: #111;
+}
+
+.video-link {
+    font-size: 24px;
+    font-weight: 400;
+    color: #111;
+    white-space: nowrap;
+}
+
+.video-link:hover {
+    color: #07c !important;
+}
+
+.bg-img {
+    margin-top: 14rem;
+}
+
+img {   
+    max-width: 100%;
+    height: auto;
+}
+
+#design {
+    padding-top: 15rem;
+    margin: 0 4rem 0 4rem; 
+}
+
+.small-title {
+    font-size: 14px !important;
+    font-weight: 900 !important;
+    letter-spacing: 0.224px
+}
+
+.open-can{
+ margin-top: 7rem;    
+}
+
+.br-design {
+    display: none;
+}
+
+#recipe {
+    padding-top: 15rem;
+    margin: 0 4rem 0 4rem; 
+}
+
+footer {
+    color: #888 !important;
+    background: whitesmoke;
+    height: 60px;
+    margin: 7rem 0 0;
+    white-space: nowrap;
+}
+
+#footer {
+    margin: 0 4rem 0 4rem; 
+    text-align: center;
+}
+
+
+@media (min-width: 1441px) and (max-width: 2560px) {
+
+    .fix-space {
+        margin-left: -25%;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+    .fix-space {
+        margin-left: -15%;
+    }
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .fix-space {
+        margin-left: -3%;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .fix-space {
+        margin-left: -4%;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+ 
+    .navbar-toggler {
+        font-size: 0.5rem;
+        padding: 0.25rem .5rem
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 0;
+        margin-bottom: -15px; 
+    }
+
+    .fix-space {
+        margin-left: -12%;
+    }
+
+    .title {
+        margin-right: 4rem !important;
+    }
+
+    #hero {
+        margin: 0 ;
+    }
+
+    .text-title {
+        font-size: 3.5rem !important;
+    }
+
+    #manifest {
+        margin: 0 1rem;
+        
+    }
+
+    .text-manifest {
+        font-size: 24px;  
+        width: 95%;      
+    }
+
+    .video-link {
+        font-size: 19px;
+        white-space: normal;
+    }
+
+    .bg-img {
+        margin-top: 5rem;
+    }
+
+    #design {
+        margin: 0 1rem;
+    } 
+
+    .br-design {
+        display: block;
+    }
+
+    #recipe {
+        margin: 0 1rem;
+    }
+
+    #footer {
+        margin: 0 1rem;
+    }
+
+    footer {
+        font-size: 9px;
+    }
+
+    footer .mt-2 {
+        margin-top: 0.8rem !important;
+    }
+
+}
